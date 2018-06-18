@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="HelloWorldApplicationCustomizer"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="381752c2-2255-4740-b3f0-1d2289ec5053"
+        ClientSideComponentProperties="{&quot;cssurl&quot;:&quot;/Site%20Assets/testi3.css&quot;}">
+    </CustomAction>
+</Elements>

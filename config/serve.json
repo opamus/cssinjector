@@ -1,0 +1,29 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://cloudrivendev.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "customActions": {
+        "381752c2-2255-4740-b3f0-1d2289ec5053": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "cssurl": "/SiteAssets/testi2.css"
+          }
+        }
+      }
+    },
+    "helloWorld": {
+      "pageUrl": "https://cloudrivendev.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "customActions": {
+        "381752c2-2255-4740-b3f0-1d2289ec5053": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "cssurl": "/SiteAssets/testi2.css"
+          }
+        }
+      }
+    }
+  }
+}
